@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Orbitron:wght@900&display=swap');
+.logo {
+    font-size: 2em;
+    color: #EC197B;
+    font-weight: 900;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 0 3px;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.icon {
+    font-size: 30px;
+    color: #FA314A;
+    cursor: pointer;
+}
+
+.iconbell {
+    font-size: 23px;
+    color: #FA314A;
+    cursor: pointer;
+}
+
+.ico {
+    font-size: 23px;
+    color: #EC197B;;
+}
+
+.user {
+    background-color: none !important;
+}
