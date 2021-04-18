@@ -7,8 +7,6 @@ export default function header() {
         <div className = {styles.header}>
             <div>
                 <MDBIcon icon="arrows-alt" className = {`mr-1 ${styles.ico}`} />
-                
-                {/* <i className={`fas fa-cross ${styles.ico}`}></i> */}
                 <b className ={styles.logo}>ribbon</b>
             </div>
             <div className = {styles.spacer}></div>

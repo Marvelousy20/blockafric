@@ -39,7 +39,7 @@ function Footer() {
                         {/* <Link to = {item.route} className = {styles.link} onClick = {() => handleClick(index)}> */}
                         <Link to = {item.route} style = {appliedStyle}  onClick = {() => handleClick(index)}>
                             <MDBIcon icon = {item.icon} className = {styles.icon} />
-                            <div className = 'mt-1'>{item.title}</div>
+                            <div className = {`mt-1 ${styles.title}`}>{item.title}</div>
                         </Link>
                     </div>
                 )
